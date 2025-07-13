@@ -28,3 +28,8 @@ updates:
     commit-message:
       prefix: "ci"
       include: "scope"
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: daily
